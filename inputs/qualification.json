@@ -1,0 +1,71 @@
+{
+  "pages": 80,
+  "rowsPerPage": 96,
+  "pagesPerSection": 5,
+  "nearRadius": 3,
+  "maxWorkBytes": 196608,
+  "updateReads": 16,
+  "foldPage": 48,
+  "patch": {
+    "edge": [
+      4703,
+      4705
+    ],
+    "cost": 1,
+    "range": [
+      0,
+      5
+    ]
+  },
+  "extraAnchor": [
+    4702,
+    4703,
+    2
+  ],
+  "events": [
+    [
+      "open",
+      "L8"
+    ],
+    [
+      "read",
+      4692,
+      4714
+    ],
+    [
+      "migrate",
+      4681
+    ],
+    [
+      "unfold",
+      4703,
+      4705,
+      1
+    ],
+    [
+      "read",
+      4692,
+      4714
+    ],
+    [
+      "edit",
+      "L9"
+    ],
+    [
+      "anchor",
+      4702,
+      4703,
+      2
+    ],
+    [
+      "read",
+      4692,
+      4714
+    ],
+    [
+      "history",
+      "L8",
+      4681
+    ]
+  ]
+}
