@@ -8,6 +8,7 @@
   },
   "scripts": {
     "inspect": "node inspect.mjs",
+    "replay": "node run.mjs",
     "test": "node --test"
   }
 }
